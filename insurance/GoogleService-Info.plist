@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>165028974157-1i0ibu058cfs2mj0ribu9el2npo0j6bm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.165028974157-1i0ibu058cfs2mj0ribu9el2npo0j6bm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAzv4zENY1wKbOUVt6MlU8oKRK5pIf2nYE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>165028974157</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app-loads.insurance</string>
+	<key>PROJECT_ID</key>
+	<string>insurance-91dc6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>insurance-91dc6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:165028974157:ios:4867acf8a652dab3</string>
+	<key>DATABASE_URL</key>
+	<string>https://insurance-91dc6.firebaseio.com</string>
+</dict>
+</plist>

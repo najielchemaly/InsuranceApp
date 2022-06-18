@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MenuView" id="iN0-l3-epB" customClass="MenuView" customModule="insurance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjR-Zc-2yP">
+                    <rect key="frame" x="0.0" y="0.0" width="295" height="667"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2wp-WI-aQa">
+                            <rect key="frame" x="0.0" y="0.0" width="295" height="667"/>
+                            <color key="backgroundColor" red="0.9999127984046936" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <connections>
+                                <outlet property="dataSource" destination="iN0-l3-epB" id="wgf-gP-Lrw"/>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="uhu-e6-V1R"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="2wp-WI-aQa" firstAttribute="leading" secondItem="cjR-Zc-2yP" secondAttribute="leading" id="G7B-o7-TOW"/>
+                        <constraint firstItem="2wp-WI-aQa" firstAttribute="top" secondItem="cjR-Zc-2yP" secondAttribute="top" id="QJq-e4-rYR"/>
+                        <constraint firstAttribute="bottom" secondItem="2wp-WI-aQa" secondAttribute="bottom" id="q0P-Zg-qZR"/>
+                        <constraint firstAttribute="trailing" secondItem="2wp-WI-aQa" secondAttribute="trailing" id="sX1-xn-BBA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="cjR-Zc-2yP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NCC-nD-6Fs"/>
+                <constraint firstItem="cjR-Zc-2yP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Rer-21-4vd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cjR-Zc-2yP" secondAttribute="trailing" constant="80" id="pia-Na-YXX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cjR-Zc-2yP" secondAttribute="bottom" id="zMq-l3-ckr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="tableView" destination="2wp-WI-aQa" id="GlT-wv-DmF"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="96.5"/>
+        </view>
+    </objects>
+</document>
